@@ -23,16 +23,13 @@ def csv_to_pixelated_image(csv_file, output_image_file):
     pixel_data = data.to_numpy()
     
     # Plot the pixel data
-    plt.imshow(pixel_data, cmap="Paired", interpolation="none")
+    plt.imshow(pixel_data, cmap="tab10", interpolation="none")
     plt.axis("off")  # Turn off axis for a cleaner image
 
     # Save the pixelated image
     plt.savefig(output_image_file, bbox_inches="tight", pad_inches=0)
     plt.close()
 
-def show_pixel_values(image):
-    img = image
-
 #Example usage
-csv_to_pixelated_image("./Data/GrabberData.csv", "GrabberPaired.png")
+csv_to_pixelated_image("./Data/Region.csv", "GrabberRegionTab10.png")
 #csv_to_heatmap("USBImage.csv", "CoolWarmHeatMap.jpg")

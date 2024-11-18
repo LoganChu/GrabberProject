@@ -13,9 +13,9 @@ def flip(image_file):
     # Flip the across horizantal axis
     vertical_flip = image.transpose(Image.FLIP_TOP_BOTTOM)
 
-    vertical_flip.save("VerticalFlip.png")
-    horizontal_flip.save("HorizantalFlip.png")
-    image.rotate(180).save("rotatedImage.png")
+    #vertical_flip.save("VerticalFlip.png")
+    #horizontal_flip.save("HorizantalFlip.png")
+    horizontal_flip.rotate(180).save("rotatedImage.png")
 
 
-flip("./Outputs/bounding_box_result.jpg")
+flip("./IntImageAndor/image_python_1.bmp")
