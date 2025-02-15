@@ -1,1 +1,1 @@
-# GrabberProject
+Leveraging ARTIQ (Advanced Real-Time Infrastructure for Quantum physics) to shorten trapped ion measurement times by 30% by increasing data transmission speeds through the Camera Link Frame Grabber. Using NumPy, Pandas, and MatplotLib to visualize Camera Link output for orientation and measurement. Testing code that uses the cv2 library to identify and draw a bounding box around regions of interests where ions might be.
