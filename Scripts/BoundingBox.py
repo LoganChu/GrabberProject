@@ -26,5 +26,5 @@ def draw_bb(image):
     cv2.waitKey(0)
     cv2.destroyAllWindows()
 
-draw_bb("./ColorMaps/Tab10PixelatedImage.png")
+draw_bb("./Region/GrabberRegionGray.png")
 
