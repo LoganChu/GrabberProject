@@ -1,0 +1,416 @@
+{
+"Summary": {
+  "MicroManagerVersion": "2.0.0",
+  "MetadataVersion": "12.0.0",
+  "ChannelGroup": "",
+  "ChNames": [
+    "Default"
+  ],
+  "AxisOrder": [
+    "channel",
+    "time",
+    "z",
+    "position"
+  ],
+  "TimeFirst": false,
+  "SlicesFirst": true,
+  "Width": 0,
+  "Height": 0,
+  "UserData": {}
+},
+"FrameKey-0-0-0": {
+  "UUID": "c783d5cf-cebe-4161-b860-b9b1411bf33b",
+  "Camera": "Andor",
+  "Binning": 1,
+  "ROI": "0-0-512-512",
+  "BitDepth": 16,
+  "ElapsedTime-ms": 134035.93,
+  "ImageNumber": 485,
+  "ReceivedTime": "2025-02-07 11:28:16.103 -0500",
+  "PixelSizeUm": 0.0,
+  "PixelSizeAffine": "0.0;0.0;0.0;0.0;0.0;0.0",
+  "PositionName": "Default",
+  "XPositionUm": 0.0,
+  "YPositionUm": 0.0,
+  "ZPositionUm": 0.0,
+  "Andor-1. Camera Information : | Type | Model | Serial No. |": "| iXon Ultra | DU897_EXF | 9974 |",
+  "Andor-ActualInterval-ms": "274.58",
+  "Andor-Advanced | Snap Image Additional Delay (ms)": "0",
+  "Andor-Advanced | Snap Image Timing Mode": "Delay for Exposure",
+  "Andor-BaselineClamp": "Enabled",
+  "Andor-Binning": "1",
+  "Andor-CCDTemperature": "18",
+  "Andor-CCDTemperature Help": "Wait for temperature to stabilize before acquisition.",
+  "Andor-CCDTemperature continuous update": "Off",
+  "Andor-CCDTemperatureSetPoint": "-70",
+  "Andor-Camera": "| iXon Ultra | DU897_EXF | 9974 |",
+  "Andor-CoolerMode": "Fan off at shutdown",
+  "Andor-CountConvert": "Counts",
+  "Andor-CountConvertWavelength": "0.0000",
+  "Andor-Description": "Andor camera adapter",
+  "Andor-EMSwitch": "On",
+  "Andor-Exposure": "250.00",
+  "Andor-FanMode": "Full",
+  "Andor-Force Run Till Abort": "Off",
+  "Andor-FrameTransfer": "Off",
+  "Andor-FrameTransfer Help": "Should only turn on FrameTransfer if using Burst or Live mode.",
+  "Andor-Gain": "3",
+  "Andor-Isolated Crop Mode": "Off",
+  "Andor-KeepCleanTime": "3.53",
+  "Andor-OptAcquireMode Description": "",
+  "Andor-Output_Amplifier": "Electron Multiplying",
+  "Andor-PixelType": "16bit",
+  "Andor-Pre-Amp-Gain": "Gain 3",
+  "Andor-ReadMode": "Image",
+  "Andor-ReadoutMode": "17.000 MHz",
+  "Andor-ReadoutTime": "21.05",
+  "Andor-Region of Interest": "Full Image",
+  "Andor-Shutter (External)": "Open",
+  "Andor-Shutter (Internal)": "Open",
+  "Andor-Shutter Closing Time": "27",
+  "Andor-Shutter Opening Time": "27",
+  "Andor-SpuriousNoiseFilter": "None",
+  "Andor-SpuriousNoiseFilterDescription": "Spurious Noise Filter is Off",
+  "Andor-SpuriousNoiseFilterThreshold": "0.0000",
+  "Andor-TimeOut": "10000",
+  "Andor-TransposeCorrection": "0",
+  "Andor-TransposeMirrorX": "0",
+  "Andor-TransposeMirrorY": "0",
+  "Andor-TransposeXY": "0",
+  "Andor-Trigger": "Software",
+  "Andor-VerticalClockVoltage": "Normal",
+  "Andor-VerticalSpeed (microseconds)": "3.30",
+  "Core-AutoFocus": "",
+  "Core-AutoShutter": "1",
+  "Core-Camera": "Andor",
+  "Core-ChannelGroup": "",
+  "Core-Focus": "",
+  "Core-Galvo": "",
+  "Core-ImageProcessor": "",
+  "Core-Initialize": "1",
+  "Core-SLM": "",
+  "Core-Shutter": "",
+  "Core-TimeoutMs": "5000",
+  "Core-XYStage": "",
+  "ScopeDataKeys": [
+    "Andor-1. Camera Information : | Type | Model | Serial No. |",
+    "Andor-ActualInterval-ms",
+    "Andor-Advanced | Snap Image Additional Delay (ms)",
+    "Andor-Advanced | Snap Image Timing Mode",
+    "Andor-BaselineClamp",
+    "Andor-Binning",
+    "Andor-CCDTemperature",
+    "Andor-CCDTemperature Help",
+    "Andor-CCDTemperature continuous update",
+    "Andor-CCDTemperatureSetPoint",
+    "Andor-Camera",
+    "Andor-CoolerMode",
+    "Andor-CountConvert",
+    "Andor-CountConvertWavelength",
+    "Andor-Description",
+    "Andor-EMSwitch",
+    "Andor-Exposure",
+    "Andor-FanMode",
+    "Andor-Force Run Till Abort",
+    "Andor-FrameTransfer",
+    "Andor-FrameTransfer Help",
+    "Andor-Gain",
+    "Andor-Isolated Crop Mode",
+    "Andor-KeepCleanTime",
+    "Andor-OptAcquireMode Description",
+    "Andor-Output_Amplifier",
+    "Andor-PixelType",
+    "Andor-Pre-Amp-Gain",
+    "Andor-ReadMode",
+    "Andor-ReadoutMode",
+    "Andor-ReadoutTime",
+    "Andor-Region of Interest",
+    "Andor-Shutter (External)",
+    "Andor-Shutter (Internal)",
+    "Andor-Shutter Closing Time",
+    "Andor-Shutter Opening Time",
+    "Andor-SpuriousNoiseFilter",
+    "Andor-SpuriousNoiseFilterDescription",
+    "Andor-SpuriousNoiseFilterThreshold",
+    "Andor-TimeOut",
+    "Andor-TransposeCorrection",
+    "Andor-TransposeMirrorX",
+    "Andor-TransposeMirrorY",
+    "Andor-TransposeXY",
+    "Andor-Trigger",
+    "Andor-VerticalClockVoltage",
+    "Andor-VerticalSpeed (microseconds)",
+    "Core-AutoFocus",
+    "Core-AutoShutter",
+    "Core-Camera",
+    "Core-ChannelGroup",
+    "Core-Focus",
+    "Core-Galvo",
+    "Core-ImageProcessor",
+    "Core-Initialize",
+    "Core-SLM",
+    "Core-Shutter",
+    "Core-TimeoutMs",
+    "Core-XYStage"
+  ],
+  "UserData": {
+    "Andor-1. Camera Information : | Type | Model | Serial No. |": {
+      "type": "STRING",
+      "scalar": "| iXon Ultra | DU897_EXF | 9974 |"
+    },
+    "Andor-ActualInterval-ms": {
+      "type": "STRING",
+      "scalar": "274.58"
+    },
+    "Andor-Advanced | Snap Image Additional Delay (ms)": {
+      "type": "STRING",
+      "scalar": "0"
+    },
+    "Andor-Advanced | Snap Image Timing Mode": {
+      "type": "STRING",
+      "scalar": "Delay for Exposure"
+    },
+    "Andor-BaselineClamp": {
+      "type": "STRING",
+      "scalar": "Enabled"
+    },
+    "Andor-Binning": {
+      "type": "STRING",
+      "scalar": "1"
+    },
+    "Andor-CCDTemperature": {
+      "type": "STRING",
+      "scalar": "18"
+    },
+    "Andor-CCDTemperature Help": {
+      "type": "STRING",
+      "scalar": "Wait for temperature to stabilize before acquisition."
+    },
+    "Andor-CCDTemperature continuous update": {
+      "type": "STRING",
+      "scalar": "Off"
+    },
+    "Andor-CCDTemperatureSetPoint": {
+      "type": "STRING",
+      "scalar": "-70"
+    },
+    "Andor-Camera": {
+      "type": "STRING",
+      "scalar": "| iXon Ultra | DU897_EXF | 9974 |"
+    },
+    "Andor-CoolerMode": {
+      "type": "STRING",
+      "scalar": "Fan off at shutdown"
+    },
+    "Andor-CountConvert": {
+      "type": "STRING",
+      "scalar": "Counts"
+    },
+    "Andor-CountConvertWavelength": {
+      "type": "STRING",
+      "scalar": "0.0000"
+    },
+    "Andor-Description": {
+      "type": "STRING",
+      "scalar": "Andor camera adapter"
+    },
+    "Andor-EMSwitch": {
+      "type": "STRING",
+      "scalar": "On"
+    },
+    "Andor-ElapsedTime-ms": {
+      "type": "STRING",
+      "scalar": "792242895826.43"
+    },
+    "Andor-ElapsedTime-ms(HW)": {
+      "type": "STRING",
+      "scalar": "272212.59"
+    },
+    "Andor-Exposure": {
+      "type": "STRING",
+      "scalar": "250.00"
+    },
+    "Andor-FanMode": {
+      "type": "STRING",
+      "scalar": "Full"
+    },
+    "Andor-Force Run Till Abort": {
+      "type": "STRING",
+      "scalar": "Off"
+    },
+    "Andor-FrameTransfer": {
+      "type": "STRING",
+      "scalar": "Off"
+    },
+    "Andor-FrameTransfer Help": {
+      "type": "STRING",
+      "scalar": "Should only turn on FrameTransfer if using Burst or Live mode."
+    },
+    "Andor-Gain": {
+      "type": "STRING",
+      "scalar": "3"
+    },
+    "Andor-ImageNumber": {
+      "type": "STRING",
+      "scalar": "985"
+    },
+    "Andor-Isolated Crop Mode": {
+      "type": "STRING",
+      "scalar": "Off"
+    },
+    "Andor-KeepCleanTime": {
+      "type": "STRING",
+      "scalar": "3.53"
+    },
+    "Andor-OptAcquireMode Description": {
+      "type": "STRING",
+      "scalar": ""
+    },
+    "Andor-Output_Amplifier": {
+      "type": "STRING",
+      "scalar": "Electron Multiplying"
+    },
+    "Andor-PixelType": {
+      "type": "STRING",
+      "scalar": "16bit"
+    },
+    "Andor-Pre-Amp-Gain": {
+      "type": "STRING",
+      "scalar": "Gain 3"
+    },
+    "Andor-ReadMode": {
+      "type": "STRING",
+      "scalar": "Image"
+    },
+    "Andor-ReadoutMode": {
+      "type": "STRING",
+      "scalar": "17.000 MHz"
+    },
+    "Andor-ReadoutTime": {
+      "type": "STRING",
+      "scalar": "21.05"
+    },
+    "Andor-Region of Interest": {
+      "type": "STRING",
+      "scalar": "Full Image"
+    },
+    "Andor-Shutter (External)": {
+      "type": "STRING",
+      "scalar": "Open"
+    },
+    "Andor-Shutter (Internal)": {
+      "type": "STRING",
+      "scalar": "Open"
+    },
+    "Andor-Shutter Closing Time": {
+      "type": "STRING",
+      "scalar": "27"
+    },
+    "Andor-Shutter Opening Time": {
+      "type": "STRING",
+      "scalar": "27"
+    },
+    "Andor-SpuriousNoiseFilter": {
+      "type": "STRING",
+      "scalar": "None"
+    },
+    "Andor-SpuriousNoiseFilterDescription": {
+      "type": "STRING",
+      "scalar": "Spurious Noise Filter is Off"
+    },
+    "Andor-SpuriousNoiseFilterThreshold": {
+      "type": "STRING",
+      "scalar": "0.0000"
+    },
+    "Andor-StartTime-ms": {
+      "type": "STRING",
+      "scalar": "792242623097.53"
+    },
+    "Andor-TimeOut": {
+      "type": "STRING",
+      "scalar": "10000"
+    },
+    "Andor-TransposeCorrection": {
+      "type": "STRING",
+      "scalar": "0"
+    },
+    "Andor-TransposeMirrorX": {
+      "type": "STRING",
+      "scalar": "0"
+    },
+    "Andor-TransposeMirrorY": {
+      "type": "STRING",
+      "scalar": "0"
+    },
+    "Andor-TransposeXY": {
+      "type": "STRING",
+      "scalar": "0"
+    },
+    "Andor-Trigger": {
+      "type": "STRING",
+      "scalar": "Software"
+    },
+    "Andor-VerticalClockVoltage": {
+      "type": "STRING",
+      "scalar": "Normal"
+    },
+    "Andor-VerticalSpeed (microseconds)": {
+      "type": "STRING",
+      "scalar": "3.30"
+    },
+    "Core-AutoFocus": {
+      "type": "STRING",
+      "scalar": ""
+    },
+    "Core-AutoShutter": {
+      "type": "STRING",
+      "scalar": "1"
+    },
+    "Core-Camera": {
+      "type": "STRING",
+      "scalar": "Andor"
+    },
+    "Core-ChannelGroup": {
+      "type": "STRING",
+      "scalar": ""
+    },
+    "Core-Focus": {
+      "type": "STRING",
+      "scalar": ""
+    },
+    "Core-Galvo": {
+      "type": "STRING",
+      "scalar": ""
+    },
+    "Core-ImageProcessor": {
+      "type": "STRING",
+      "scalar": ""
+    },
+    "Core-Initialize": {
+      "type": "STRING",
+      "scalar": "1"
+    },
+    "Core-SLM": {
+      "type": "STRING",
+      "scalar": ""
+    },
+    "Core-Shutter": {
+      "type": "STRING",
+      "scalar": ""
+    },
+    "Core-TimeoutMs": {
+      "type": "STRING",
+      "scalar": "5000"
+    },
+    "Core-XYStage": {
+      "type": "STRING",
+      "scalar": ""
+    },
+    "TimeReceivedByCore": {
+      "type": "STRING",
+      "scalar": "2025-02-07 11:28:15.826430"
+    }
+  },
+  "FileName": "6-ion-chain_MMStack_Default.ome.tif"
+}
+}
