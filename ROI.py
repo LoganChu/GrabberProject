@@ -43,8 +43,11 @@ def roi(image,ion_number, Manhattan_distance):
     ax[1].set_title(f"Top {ion_number} Maxima")
     ax[1].axis("off")
 
+    bounding_box = []
+
     #Bounding Boxes
     for y, x in maxima:
+        bounding_box.append(((x - Manhattan_distance, x + Manhattan_distance, y - Manhattan_distance, y + Manhattan_distance)))
         cv2.rectangle(
             cropped_img, 
             (x - Manhattan_distance, y - Manhattan_distance),  # Top-left corner
@@ -52,6 +55,16 @@ def roi(image,ion_number, Manhattan_distance):
             (0, 0, 255),  # Blue box (BGR format)
             1  # Thickness
         )
+
+    stats = []
+
+    for x1, x2, y1, y2 in bounding_box:
+        roi = cropped_img[y1:y2, x1:x2]
+        mean = round(float(np.mean(roi)),5)
+        std = round(float(np.std(roi)),5)
+        stats.append((mean,std))
+
+    print(stats)
 
     ax[2].imshow((cropped_img), cmap="gray")
     ax[2].set_title(f"Bounding Boxes")
